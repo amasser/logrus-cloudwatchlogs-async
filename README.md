@@ -1,10 +1,11 @@
 # Asynchronous CloudWatch Logs hook for Logrus
 
-Send github/sirupsen/logrus logs to Amazon's [CloudWatch
+Send [Logrus](https://github.com/sirupsen/logrus) logs to Amazon's [CloudWatch
 Logs](https://aws.amazon.com/cloudwatch/details/#log-monitoring) service.
 
-Inspired by github/kdar/logrus-cloudwatchlogs, but it sends logs asynchronously, therefore it
-doesn't impair application performance. It can also handle the host temporarily going offline.
+Inspired by [logrus-cloudwatchlogs](https://github/kdar/logrus-cloudwatchlogs), but it sends logs
+asynchronously, therefore it doesn't impair application performance. It can also handle the host
+temporarily going offline.
 
 ## Example
 
